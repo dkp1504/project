@@ -1,0 +1,38 @@
+# Deep Learning Heavy Model Weights (Ignored from Git)
+*.pth
+*.pt
+Backend/models/*.pth
+
+# Node.js / Frontend Build & Dependencies
+node_modules/
+Frontend/node_modules/
+dist/
+Frontend/dist/
+dist-ssr/
+*.local
+
+# Python / Virtual Environments
+venv/
+.venv/
+env/
+Backend/venv/
+Backend/.venv/
+
+# Python Cache & Compiled Files
+__pycache__/
+Backend/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment Variables & Secret Files
+.env
+.env.local
+.env.*.local
+*.env
+
+# System & Editor Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

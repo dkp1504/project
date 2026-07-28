@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+numpy
+pandas
+scikit-learn==1.6.1
+pillow
+joblib
+requests
+onnxruntime
